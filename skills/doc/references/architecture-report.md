@@ -42,7 +42,7 @@ cat README.md AGENTS.md 2>/dev/null | head -200
 ls src/ lib/ cmd/ pkg/ 2>/dev/null
 rg "fn main|func main|if __name__" --type-add 'all:*.*' -l | head -5
 
-# Then fill template from references/TEMPLATE.md
+# Then fill template from the structure below
 ```
 
 ---
@@ -100,7 +100,6 @@ Keep under 150 lines.
 |------|----------|-------|
 ```
 
-Full template: [TEMPLATE.md](references/TEMPLATE.md)
 
 ---
 
@@ -163,8 +162,6 @@ Auto-generate report stub on new project:
 
 | Topic | File |
 |-------|------|
-| Full template | [TEMPLATE.md](references/TEMPLATE.md) |
-| Real examples | [EXAMPLES.md](references/EXAMPLES.md) |
 
 ## Scripts
 

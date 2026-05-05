@@ -254,6 +254,3 @@ CLI args → Config::load() → Project::process() → Storage::save()
 
 | Need | File |
 |------|------|
-| Language-specific patterns | [LANGUAGES.md](references/LANGUAGES.md) |
-| Common architecture patterns | [PATTERNS.md](references/PATTERNS.md) |
-| Example exploration sessions | [EXAMPLES.md](references/EXAMPLES.md) |
