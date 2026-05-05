@@ -112,7 +112,7 @@ rg "impl .* for" --type rust             # Trait implementations
 For large codebases, spawn an Explore agent:
 
 ```
-Task tool → subagent_type: "Explore"
+spawn_agent(agent_type="explorer")
 Prompt: "Analyze the [project] codebase to provide a deep technical understanding.
 Focus on:
 1. Architecture Overview — how components interact
